@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: vishal-electricals
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_APP_TITLE
+        value: "Vishal Electricals"
+      - key: VITE_APP_DESCRIPTION
+        value: "Reliable Electrical Solutions Across Mumbai Western Railway Corridor (Virar to Churchgate)"
+      - key: VITE_CONTACT_PHONE
+        value: "+919004807180"
+      - key: VITE_CONTACT_EMAIL
+        value: "dispatch@vishalelectricals.com"
+      - key: VITE_HQ_ADDRESS
+        value: "Cartan Road No. 8, Sukkarwadi, Borivali East, Mumbai 400066"

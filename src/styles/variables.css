@@ -1,0 +1,129 @@
+:root, [data-theme="light"] {
+  /* ==========================================================================
+     Vishal Electricals - Professional Design System Tokens (Light Mode Default)
+     Theme: Executive Obsidian Navy, High-Voltage Electric Amber & Royal Sapphire
+     ========================================================================== */
+
+  /* Dark Bases & Authority Blues */
+  --color-primary-dark: #070B14;
+  --color-primary-navy: #0B132B;
+  --color-primary-midnight: #131E3D;
+  --color-primary-slate: #1C2B54;
+  --color-primary-blue: #1E3A8A;
+
+  /* Vibrant Accents */
+  --color-accent-blue: #2563EB;
+  --color-accent-blue-hover: #1D4ED8;
+  --color-accent-blue-light: #EFF6FF;
+  --color-accent-cyan: #0284C7;
+  --color-accent-cyan-hover: #0369A1;
+  --color-accent-cyan-light: #E0F2FE;
+
+  /* Electric Amber & High-Voltage Gold */
+  --color-electric-gold: #F59E0B;
+  --color-electric-gold-hover: #D97706;
+  --color-electric-gold-glow: #FBBF24;
+  --color-electric-gold-subtle: #FFFBEB;
+  --color-electric-gold-border: #FDE68A;
+
+  /* Emergency High-Alert Crimson */
+  --color-emergency-red: #EF4444;
+  --color-emergency-dark: #DC2626;
+  --color-emergency-subtle: #FEF2F2;
+  --color-emergency-border: #FCA5A5;
+
+  /* Safety & Guarantee Emerald */
+  --color-success-green: #10B981;
+  --color-success-dark: #059669;
+  --color-success-subtle: #ECFDF5;
+  --color-success-border: #A7F3D0;
+
+  /* Neutrals & Surfaces */
+  --bg-main: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-alt: #F1F5F9;
+  --bg-subtle: #F8FAFC;
+  --bg-muted: #E2E8F0;
+
+  /* Text Colors */
+  --text-dark: #0B132B;
+  --text-charcoal: #1E293B;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+  --text-white: #FFFFFF;
+
+  /* Borders */
+  --border-light: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --border-focus: #2563EB;
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(11, 19, 43, 0.04);
+  --shadow-sm: 0 2px 6px -1px rgba(11, 19, 43, 0.06), 0 1px 3px -1px rgba(11, 19, 43, 0.04);
+  --shadow-md: 0 8px 20px -3px rgba(11, 19, 43, 0.07), 0 3px 6px -2px rgba(11, 19, 43, 0.04);
+  --shadow-lg: 0 16px 32px -4px rgba(11, 19, 43, 0.09), 0 6px 12px -3px rgba(11, 19, 43, 0.04);
+  --shadow-xl: 0 24px 48px -12px rgba(11, 19, 43, 0.16);
+
+  /* Signature Glows */
+  --shadow-glow-gold: 0 4px 20px rgba(245, 158, 11, 0.35);
+  --shadow-glow-blue: 0 4px 20px rgba(37, 99, 235, 0.3);
+  --shadow-glow-red: 0 4px 20px rgba(239, 68, 68, 0.35);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.88);
+  --glass-bg-dark: rgba(7, 11, 20, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-border-dark: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(16px);
+
+  /* Transitions */
+  --transition-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 260ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Border Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+  --radius-full: 9999px;
+
+  /* Layout Heights */
+  --navbar-height: 76px;
+  --mobile-bar-height: 70px;
+}
+
+/* ==========================================================================
+   Dark Theme Overrides
+   ========================================================================== */
+[data-theme="dark"] {
+  --bg-main: #070B14;
+  --bg-card: #0F172A;
+  --bg-alt: #131E3D;
+  --bg-subtle: #0B132B;
+  --bg-muted: #1E293B;
+
+  --text-dark: #F8FAFC;
+  --text-charcoal: #E2E8F0;
+  --text-muted: #94A3B8;
+  --text-light: #64748B;
+  --text-white: #FFFFFF;
+
+  --border-light: rgba(255, 255, 255, 0.09);
+  --border-medium: rgba(255, 255, 255, 0.18);
+  --border-focus: #F59E0B;
+
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 6px -1px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 8px 20px -3px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 16px 32px -4px rgba(0, 0, 0, 0.65);
+  --shadow-xl: 0 24px 48px -12px rgba(0, 0, 0, 0.75);
+
+  --glass-bg: rgba(15, 23, 42, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}

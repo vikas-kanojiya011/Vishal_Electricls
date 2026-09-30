@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="favShield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B192C" />
+      <stop offset="60%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="favBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="favBolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="40%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="favGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#F59E0B" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Shield Body -->
+  <path
+    d="M32 4 L58 15 V35 C58 49 46 58 32 62 C18 58 6 49 6 35 V15 L32 4 Z"
+    fill="url(#favShield)"
+    stroke="url(#favBorder)"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Cyan Accent -->
+  <path
+    d="M32 9 L52 17.5 V33 C52 44.5 42 52 32 55.5 C22 52 12 44.5 12 33 V17.5 L32 9 Z"
+    fill="none"
+    stroke="#38BDF8"
+    stroke-width="1.2"
+    stroke-dasharray="2 3"
+    opacity="0.45"
+  />
+
+  <!-- Monogram 'V' Left Stem -->
+  <path
+    d="M17 21 L27 45 H21 L13 25 Z"
+    fill="#38BDF8"
+    opacity="0.9"
+  />
+
+  <!-- High Voltage Bolt -->
+  <path
+    d="M36 13 L21 33 H32 L27 53 L45 30 H34 L39 13 Z"
+    fill="url(#favBolt)"
+    stroke="#FFFBEB"
+    stroke-width="0.8"
+    filter="url(#favGlow)"
+  />
+
+  <!-- Spark Highlight -->
+  <circle cx="39" cy="13" r="1.8" fill="#FFFFFF" />
+  <circle cx="27" cy="53" r="1.4" fill="#FBBF24" />
+</svg>
